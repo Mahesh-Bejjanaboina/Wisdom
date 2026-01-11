@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* HEADINGS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+/* CONTAINERS SECTION */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* COLORING SECTONS */
+
+.color-section {
+  background-color: #0b1f3fec;
+  color: #ffffff;
+}
+.grey-section {
+  background-color: #f5f5f5;
+}
+.white-section {
+  background-color: #ffffff;
+}
+
+/* TITLE SECTION --------------------------------------------------------------------------------------- */
+
+/* NAVBAR SECTION */
+
+.navbar {
+  padding: 5% 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+}
+.navbar-nav {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.nav-item {
+  padding: 0 15px;
+}
+
+/* TITLE SECTION */
+
+#title {
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 10%;
+}
+.title-img {
+  transform: rotate(22deg);
+  padding-left: 100px;
+  position: absolute;
+}
+.btn-title {
+  margin: 10% 5% 0 0;
+}
+.ios-img {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 5px;
+}
+.android-img {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 5px;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    padding: 8% 0;
+  }
+  .btn-title {
+    margin: 5% 1%;
+  }
+  .btn-cta {
+    margin: 5% 1%;
+  }
+  .nav-item {
+    text-align: left;
+  }
+}
+
+/* FEATURES SECTION ----------------------------------------------------------------------------------- */
+
+#features {
+  position: relative;
+}
+.feature-box {
+  padding: 3% 3%;
+}
+.icons {
+  margin-bottom: 10px;
+  opacity: 1; /* Normal state: fully visible */
+  transition: opacity 0.5s ease; /* Smooth transition for the effect */
+}
+.icons:hover {
+  opacity: 0.7; /* Hover state: 70% opacity */
+}
+
+/* TESTIMONIALS SECTION ---------------------------------------------------------------------------------- */
+
+.student-review {
+  color: #555555;
+  padding-top: 5%;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.profile {
+  width: 100px;
+  border-radius: 100%;
+  margin: 50px 20px 10px 20px;
+}
+
+/* PRICING SECTION --------------------------------------------------------------------------------------- */
+
+.pricing-text {
+  font-weight: 500;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 0 3%;
+}
+
+/* CTS SECTION -------------------------------------------------------------------------------------------- */
+.btn-cta {
+  margin: 5% 2%;
+}
+/* FOOTER SECTION --------------------------------------------------------------------------------------- */
+
+.copy-right {
+  padding: 10px 0;
+  font-size: small;
+}
+.social {
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 1; /* Normal state: fully visible */
+  transition: opacity 0.5s ease; /* Smooth transition for the effect */
+}
+.social:hover {
+  opacity: 0.7; /* Hover state: 70% opacity */
+}
